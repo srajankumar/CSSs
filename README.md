@@ -1,6 +1,6 @@
-# Components
+# CSSs
 
-Some cool CSS components
+Some cool CSS thingies
 
 ### Installation
 
