@@ -1,0 +1,120 @@
+#one {
+  width: 2rem;
+  height: 2rem;
+}
+
+.me {
+  position: fixed;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  margin: 3rem;
+  text-decoration: none;
+  transition: ease-out 0.7s;
+}
+
+.me:hover {
+  transform: scale(1.05);
+  transition: ease-in 0.3s;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.violet {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.violet:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px violet;
+  background: violet;
+}
+
+.indigo {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.indigo:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px indigo;
+  background: indigo;
+}
+
+.blue {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.blue:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px blue;
+  background: blue;
+}
+.green {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.green:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px green;
+  background: green;
+}
+.yellow {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.yellow:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px yellow;
+  background: yellow;
+}
+.orange {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.orange:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px orange;
+  background: orange;
+}
+.red {
+  background: #000;
+  /* border-radius: 100%; */
+  margin: 1px;
+}
+
+.red:hover {
+  z-index: 10;
+  box-shadow: 0 0 50px 15px red;
+  background: red;
+}
