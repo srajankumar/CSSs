@@ -8,7 +8,7 @@ Some cool CSS thingies
 git clone https://github.com/srajankumar/CSSs
 ```
 
-### Authors
+### Thingies
 
 1. Login / Sign Up: <a href="https://login-signup-h3lubrdec-srajankumar.vercel.app/" >Go Live</a>
 
