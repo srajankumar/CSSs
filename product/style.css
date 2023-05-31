@@ -1,0 +1,66 @@
+body {
+  background: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container {
+  display: flex;
+  background: #000;
+  width: 40rem;
+  height: 18rem;
+  color: aliceblue;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  background: rgb(215, 255, 215);
+}
+
+.description {
+  width: 60%;
+  height: auto;
+  background: white;
+}
+
+img {
+  position: absolute;
+  top: 20%;
+  background: transparent;
+  z-index: 10;
+  width: 30%;
+}
+
+@media only screen and (max-width: 850px) {
+  img {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  img {
+    top: 25%;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    height: 12rem;
+  }
+  img {
+    top: 37%;
+    width: 45%;
+  }
+}
