@@ -14,6 +14,8 @@ git clone https://github.com/srajankumar/CSSs
 
 2. Hover.me: <a href="https://hover-2g4kvdtuf-srajankumar.vercel.app/" >Go Live</a>
 
+3. Product - Preview: <a href="https://product-rho-nine.vercel.app/" >Go Live</a>
+
 ### Authors
 
 - [@srajankumar](https://github.com/srajankumar)
