@@ -48,10 +48,10 @@ body {
 
 img {
   position: absolute;
-  top: 20%;
+  top: 30%;
   background: transparent;
   z-index: 10;
-  width: 30%;
+  width: 20%;
 }
 
 .choose {
@@ -185,7 +185,7 @@ p {
 
 @media only screen and (max-width: 400px) {
   img {
-    top: 25%;
+    top: 35%;
     width: 45%;
   }
 }
